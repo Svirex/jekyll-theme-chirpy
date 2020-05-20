@@ -1,5 +1,6 @@
 ---
-title: Tags
+title: Теги
+type: Tags
 
 # All the Tags of posts.
 # v2.0

@@ -46,7 +46,7 @@
         or item.name == "Home" and page.layout == "home" %}active{% endif %}">
       <a href="{{ ref }}" class="nav-link d-flex justify-content-center align-items-center w-100">
         <i class="fa-fw {{ item.icon }} ml-3 mr-3 unloaded"></i>
-        <span>{{ item.name | upcase }}</span>
+        <span>{{ item.showname | upcase }}</span>
       </a>
     </li> <!-- .nav-item -->
   {% endfor %}
@@ -67,13 +67,19 @@
   <a href="https://github.com/{{ site.github.username }}" target="_blank">
     <i class="fab fa-github-alt"></i>
   </a>
-  <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank">
+  <a href="https://youtube.com/{{ site.youtube.username }}" target="_blank">
+    <i class="fab fa-youtube"></i>
+  </a>
+  <a href="https://t.me/{{ site.telegram.username }}" target="_blank">
+    <i class="fab fa-telegram"></i>
+  </a>
+  <!-- <a href="https://twitter.com/{{ site.twitter.username }}" target="_blank">
     <i class="fab fa-twitter"></i>
-  </a>
-  {% assign email = site.social.email | split: '@' %}
-  <a href="javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))">
+  </a> -->
+  <!-- {% assign email = site.social.email | split: '@' %} -->
+  <!-- <a href="javascript:window.open('mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@'))">
     <i class="fas fa-envelope"></i>
-  </a>
+  </a> -->
   <a href="{{ site.baseurl }}/feed.xml" target="_blank">
     <i class="fas fa-rss"></i>
   </a>

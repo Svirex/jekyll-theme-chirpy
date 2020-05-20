@@ -1,5 +1,6 @@
 ---
-title: Categories
+title: Категории
+type: Categories
 
 # All the Categories of posts
 # v2.0

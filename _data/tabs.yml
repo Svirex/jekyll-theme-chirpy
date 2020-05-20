@@ -7,24 +7,29 @@
 
 -
   name: Home
+  showname: Главная
   icon: "fas fa-home"
 -
   name: Categories
+  showname: Категории
   icon: "fas fa-stream"
   path: tabs
   url: categories
--
-  name: "Tags"
-  icon: "fas fa-tags"
-  path: tabs
-  url: tags
+# -
+#   name: "Tags"
+#   showname: Теги
+#   icon: "fas fa-tags"
+#   path: tabs
+#   url: tags
 -
   name: "Archives"
+  showname: Архивы
   path: tabs
   url: archives
   icon: "fas fa-archive"
 -
   name: "About"
+  showname: Обо мне
   icon: "fas fa-info"
   path: tabs
   url: about

@@ -1,5 +1,6 @@
 ---
-title: Archives
+title: Архивы
+type: Archives
 
 # The Archives of posts.
 # v2.0
