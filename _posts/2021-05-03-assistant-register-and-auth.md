@@ -33,7 +33,7 @@ categories: [Бот-помощник]
 
 С аутентификацией всё просто: ищем пользователя, сравниваем пароль. Если не нашли пользователя с таким `username` или проверка пароля не прошла, то говорим, что "пользователь или пароль не верны". Иначе генерим JWT-токены и отправляем их пользователю. В документации по `FastAPI` есть прекрасная глава с описанием, как [это](https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/) сделать.
 
-[Коммит с кодом](https://github.com/Svirex/assistant/tree/f3315def8a2540f98e68edfc98fc3a1bbf8ffefc)
+[Коммит](https://github.com/Svirex/assistant/tree/f3315def8a2540f98e68edfc98fc3a1bbf8ffefc)
 
 
 ## Вместо заключения
